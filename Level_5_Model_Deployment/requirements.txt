@@ -1,0 +1,48 @@
+# Level 5: Model Deployment Requirements
+# Core
+pandas
+numpy
+scikit-learn
+
+# API Development
+fastapi
+uvicorn
+flask
+gunicorn
+
+# Model Serving
+mlflow
+bentoml
+seldon-core
+torchserve
+tensorflow-serving-api
+
+# Containerization
+docker
+
+# Cloud SDKs
+boto3
+azure-storage-blob
+google-cloud-storage
+google-cloud-aiplatform
+
+# Monitoring
+prometheus-client
+grafana-api
+
+# Load Testing
+locust
+apache-bench
+
+# Security
+python-jose
+passlib
+bcrypt
+
+# Batch Inference
+apache-beam
+spark
+
+# Model Registry
+mlflow
+dvc

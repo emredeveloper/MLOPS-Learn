@@ -1,0 +1,42 @@
+# Level 4: Model Training Requirements
+# Core ML
+scikit-learn
+pandas
+numpy
+
+# Distributed Training
+ray[default]
+dask[complete]
+horovod
+
+# MLOps Platforms
+mlflow
+kubeflow-pipelines
+metaflow
+
+# Hyperparameter Optimization
+optuna
+hyperopt
+ray[tune]
+wandb
+
+# Model Training Infrastructure
+docker
+kubernetes
+
+# GPU Support
+nvidia-ml-py3
+
+# Monitoring During Training
+tensorboard
+wandb
+
+# Experiment Management
+sacred
+comet-ml
+
+# Data Loading & Processing
+torch
+tensorflow
+datasets
+transformers

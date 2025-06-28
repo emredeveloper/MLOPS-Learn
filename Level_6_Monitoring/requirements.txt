@@ -1,0 +1,46 @@
+# Level 6: Monitoring Requirements
+# Core
+pandas
+numpy
+matplotlib
+seaborn
+
+# ML Monitoring
+evidently
+alibi-detect
+whylogs
+deepchecks
+
+# System Monitoring
+prometheus-client
+grafana-api
+psutil
+py-cpuinfo
+
+# Data Quality
+great-expectations
+pandera
+cerberus
+
+# Alerting
+slack-sdk
+pagerduty
+smtplib
+
+# Logging
+structlog
+python-json-logger
+
+# Drift Detection
+scipy
+statsmodels
+
+# Visualization
+plotly
+dash
+streamlit
+
+# Database Connectivity
+sqlalchemy
+psycopg2-binary
+pymongo

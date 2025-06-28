@@ -1,0 +1,42 @@
+# Level 3: Model Development Requirements
+# Core ML Libraries
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+
+# Model Development & Tracking
+mlflow
+wandb
+neptune-client
+optuna
+hyperopt
+ray[tune]
+
+# Deep Learning
+tensorflow
+torch
+torchvision
+transformers
+lightning
+
+# Model Validation & Testing
+pytest
+pytest-cov
+hypothesis
+
+# Feature Engineering
+feature-engine
+category-encoders
+imbalanced-learn
+
+# Model Interpretability
+shap
+lime
+eli5
+
+# Utilities
+joblib
+pickle5
+cloudpickle
