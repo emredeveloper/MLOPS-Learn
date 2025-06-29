@@ -1,0 +1,179 @@
+{
+  "validation": {
+    "missing_values": {
+      "counts": [
+        500
+      ],
+      "percentages": [
+        5.0
+      ]
+    },
+    "duplicates": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "outliers": {
+      "customer_id": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -4998.5,
+        "upper_bound": 14999.5
+      },
+      "age": {
+        "count": 25,
+        "percentage": 0.25,
+        "lower_bound": 0.5,
+        "upper_bound": 68.5
+      },
+      "income": {
+        "count": 354,
+        "percentage": 3.54,
+        "lower_bound": -7293.9167478037125,
+        "upper_bound": 54341.688902243244
+      },
+      "purchase_frequency": {
+        "count": 102,
+        "percentage": 1.02,
+        "lower_bound": -1.0,
+        "upper_bound": 7.0
+      },
+      "website_visits": {
+        "count": 38,
+        "percentage": 0.38,
+        "lower_bound": 0.0,
+        "upper_bound": 16.0
+      },
+      "email_opens": {
+        "count": 134,
+        "percentage": 1.34,
+        "lower_bound": -1.5,
+        "upper_bound": 10.5
+      },
+      "customer_value": {
+        "count": 56,
+        "percentage": 0.5599999999999999,
+        "lower_bound": -135.96727697187657,
+        "upper_bound": 596.6897254704572
+      }
+    }
+  },
+  "cleaning": [
+    "Filled missing values in income with median: 22227.54",
+    "Capped outliers in age: 25 values",
+    "Capped outliers in income: 417 values",
+    "Capped outliers in customer_value: 56 values",
+    "Normalized age",
+    "Normalized income",
+    "Normalized customer_value"
+  ],
+  "feature_engineering": [
+    "Created age groups",
+    "Created income tiers",
+    "Created engagement score and level",
+    "Created interaction features",
+    "Encoded 6 categorical features"
+  ],
+  "final_validation": {
+    "missing_values": {
+      "counts": [],
+      "percentages": []
+    },
+    "duplicates": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "outliers": {
+      "customer_id": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -4998.5,
+        "upper_bound": 14999.5
+      },
+      "age": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": 0.5,
+        "upper_bound": 68.5
+      },
+      "income": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -5494.520954108873,
+        "upper_bound": 52181.291395971086
+      },
+      "purchase_frequency": {
+        "count": 102,
+        "percentage": 1.02,
+        "lower_bound": -1.0,
+        "upper_bound": 7.0
+      },
+      "website_visits": {
+        "count": 38,
+        "percentage": 0.38,
+        "lower_bound": 0.0,
+        "upper_bound": 16.0
+      },
+      "email_opens": {
+        "count": 134,
+        "percentage": 1.34,
+        "lower_bound": -1.5,
+        "upper_bound": 10.5
+      },
+      "customer_value": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -135.96727697187657,
+        "upper_bound": 596.6897254704572
+      },
+      "age_scaled": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -3.094066590245537,
+        "upper_bound": 3.0149813708317668
+      },
+      "income_scaled": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -2.658449184214401,
+        "upper_bound": 2.4543182259264515
+      },
+      "customer_value_scaled": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -2.8093046845611145,
+        "upper_bound": 2.7605826670214966
+      },
+      "engagement_score": {
+        "count": 83,
+        "percentage": 0.83,
+        "lower_bound": 1.7499999999999991,
+        "upper_bound": 9.350000000000001
+      },
+      "purchases_per_income": {
+        "count": 449,
+        "percentage": 4.49,
+        "lower_bound": -1.273512508890514,
+        "upper_bound": 3.9542570878301735
+      },
+      "email_open_rate": {
+        "count": 348,
+        "percentage": 3.4799999999999995,
+        "lower_bound": -0.2909090909090909,
+        "upper_bound": 1.4545454545454546
+      },
+      "age_income_interaction": {
+        "count": 39,
+        "percentage": 0.38999999999999996,
+        "lower_bound": 17.21098008716075,
+        "upper_bound": 669.808349134169
+      }
+    }
+  },
+  "pipeline_config": {
+    "missing_strategy": "median",
+    "outlier_method": "iqr",
+    "normalize_features": true,
+    "create_interactions": true
+  },
+  "pipeline_timestamp": "2025-06-29T16:04:54.148731"
+}
