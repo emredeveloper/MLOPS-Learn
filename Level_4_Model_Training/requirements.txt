@@ -1,8 +1,9 @@
 # Level 4: Model Training Requirements
 # Core ML
-scikit-learn
-pandas
-numpy
+scikit-learn>=1.1.0
+pandas>=1.5.0
+numpy>=1.21.0
+scipy>=1.9.0
 
 # Distributed Training
 ray[default]
@@ -10,12 +11,12 @@ dask[complete]
 horovod
 
 # MLOps Platforms
-mlflow
+mlflow>=2.0.0
 kubeflow-pipelines
 metaflow
 
 # Hyperparameter Optimization
-optuna
+optuna>=3.0.0
 hyperopt
 ray[tune]
 wandb
@@ -40,3 +41,19 @@ torch
 tensorflow
 datasets
 transformers
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Utilities
+joblib>=1.1.0
+tqdm>=4.64.0
+
+# Optional for better performance
+xgboost>=1.6.0
+lightgbm>=3.3.0
+
+# Jupyter support
+ipykernel>=6.15.0
+ipywidgets>=7.7.0
