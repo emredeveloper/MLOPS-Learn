@@ -1,0 +1,11 @@
+# Optional integrations for richer pipeline orchestration demos
+prefect>=2.14,<2.15
+dagster>=1.5,<1.6
+apache-airflow==2.7.3
+feature-engine>=1.6,<1.7
+category-encoders>=2.6,<2.7
+alibi-detect>=0.11,<0.12
+psycopg2-binary>=2.9,<3.0
+dvc[s3]>=3.0,<3.4
+dvc[azure]>=3.0,<3.4
+dvc[gs]>=3.0,<3.4

@@ -1,0 +1,11 @@
+# Optional production-grade serving and governance stacks
+kubeflow-pipelines>=2.0,<2.1
+kserve==0.11.2
+seldon-core==1.18.0
+ray[serve]>=2.9.0
+tritonclient[grpc]>=2.39,<2.40
+mlserver>=1.6,<1.7
+auto-sklearn>=0.16,<0.17
+pycaret>=3.2,<3.3
+autopep8>=2.0,<2.1
+oauthlib>=3.2,<3.3

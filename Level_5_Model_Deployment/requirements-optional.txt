@@ -1,0 +1,7 @@
+# Optional deployment targets and tooling
+bentoml>=1.1,<1.2
+seldon-core==1.18.0
+mlserver>=1.6,<1.7
+prometheus-client>=0.18,<0.19
+pytest>=7.4,<7.5
+httpx>=0.26,<0.27

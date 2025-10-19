@@ -1,0 +1,8 @@
+# Optional libraries for advanced tracking and deep learning
+wandb>=0.16,<0.17
+neptune-client>=1.5,<1.6
+ray[tune]>=2.9.0
+xgboost>=1.7,<1.8
+lightgbm>=4.1,<4.2
+tensorflow>=2.14,<2.15
+torch>=2.1,<2.2

@@ -1,7 +1,5 @@
-fastapi==0.104.1
-uvicorn==0.24.0
-pandas==2.1.4
-numpy==1.24.3
-scikit-learn==1.3.2
-joblib==1.3.2
-pydantic==2.5.0
+# Minimal FastAPI-based serving stack
+-r requirements-core.txt
+
+# Optional serving frameworks and test utilities:
+#   pip install -r requirements-optional.txt

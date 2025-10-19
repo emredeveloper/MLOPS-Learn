@@ -1,43 +1,5 @@
-# Level 2: Data Pipeline Requirements
-# Core Libraries
-pandas
-numpy
-matplotlib
-seaborn
+# Install the curated core toolchain for Level 2.
+-r requirements-core.txt
 
-# Data Version Control
-dvc
-dvc[s3]
-dvc[azure]
-dvc[gs]
-
-# Data Quality & Validation
-great-expectations
-pandera
-deepdiff
-
-# Data Processing
-pyarrow
-fastparquet
-sqlalchemy
-psycopg2-binary
-
-# Pipeline Orchestration
-apache-airflow
-prefect
-dagster
-
-# Feature Engineering
-feature-engine
-category-encoders
-scikit-learn
-
-# Data Drift Detection
-evidently
-alibi-detect
-
-# Utilities
-pyyaml
-requests
-tqdm
-click
+# Optional connectors and orchestrators are listed in requirements-optional.txt
+#   pip install -r requirements-optional.txt
