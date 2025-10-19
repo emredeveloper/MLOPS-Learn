@@ -1,0 +1,11 @@
+# Core libraries for advanced MLOps scenarios
+mlflow>=2.8,<2.9
+prefect>=2.14,<2.15
+kubernetes>=28.1,<28.2
+ray>=2.9,<2.10
+dask>=2023.12.1
+feast>=0.32,<0.33
+great-expectations>=0.18,<0.19
+statsmodels>=0.14,<0.15
+scipy>=1.11,<1.12
+pyspark>=3.5,<3.6

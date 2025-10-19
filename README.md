@@ -59,7 +59,7 @@ Bu repository, MLOps (Machine Learning Operations) süreçlerini adım adım ö�
 1. **Repository'yi klonlayın:**
    ```bash
    git clone <your-repo-url>
-   cd MLOPS
+   cd MLOPS-Learn
    ```
 
 2. **Virtual environment oluşturun:**
@@ -86,7 +86,7 @@ Bu repository, MLOps (Machine Learning Operations) süreçlerini adım adım ö�
 
 ## 📋 Her Seviye için Kurulum
 
-Her seviyenin kendi `requirements.txt` dosyası bulunmaktadır:
+Her seviyenin kendi `requirements.txt` dosyası bulunmaktadır. Varsayılan dosya hafif bir "çekirdek" kurulum sunar ve aynı dizindeki `requirements-optional.txt` dosyası isteğe bağlı araçları listeler.
 
 ```bash
 # Level 1
@@ -120,13 +120,13 @@ cd Level_7_Advanced_MLOps && pip install -r requirements.txt
 
 ## 📊 Kullanılan Teknolojiler
 
-- **Experiment Tracking:** MLflow, Weights & Biases
+- **Experiment Tracking:** MLflow, Weights & Biases (opsiyonel)
 - **Data Versioning:** DVC
-- **Pipeline Orchestration:** Apache Airflow, Prefect
-- **Model Serving:** FastAPI, BentoML, Seldon Core
-- **Monitoring:** Evidently, Prometheus, Grafana
-- **Containerization:** Docker, Kubernetes
-- **Cloud Platforms:** AWS, Azure, GCP
+- **Pipeline Orchestration:** Prefect, Apache Airflow (opsiyonel)
+- **Model Serving:** FastAPI, BentoML (opsiyonel), Seldon Core (opsiyonel)
+- **Monitoring:** Evidently, WhyLabs/whylogs, Prometheus
+- **Dağıtık & GPU Eğitim:** Ray, Dask, Horovod (opsiyonel)
+- **Feature Store:** Feast
 
 ## 🤝 Katkıda Bulunma
 

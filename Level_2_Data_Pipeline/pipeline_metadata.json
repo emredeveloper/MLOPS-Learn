@@ -175,5 +175,6 @@
     "normalize_features": true,
     "create_interactions": true
   },
-  "pipeline_timestamp": "2025-06-29T16:04:54.148731"
+  "pipeline_timestamp": "2024-06-15T12:00:00Z",
+  "metadata_note": "Bu çıktılar eğitim amaçlı örnek verilerden üretilmiştir ve canlı bir pipeline'a ait değildir."
 }

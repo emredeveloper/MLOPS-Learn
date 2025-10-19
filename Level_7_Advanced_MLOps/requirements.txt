@@ -1,53 +1,5 @@
-# Level 7: Advanced MLOps Requirements
-# Core MLOps Platform
-mlflow
-kubeflow-pipelines
-airflow
-prefect
+# Baseline toolchain for advanced orchestration labs
+-r requirements-core.txt
 
-# Advanced Model Serving
-ray[serve]
-triton-inference-server
-kserve
-seldon-core
-
-# Multi-cloud & Edge
-kubernetes
-helm
-terraform
-pulumi
-
-# Advanced Monitoring
-evidently
-whylogs
-alibi
-fiddler
-
-# Feature Store
-feast
-tecton
-
-# Model Governance
-great-expectations
-dvc
-git-lfs
-
-# Security & Compliance
-cryptography
-pyjwt
-oauth2lib
-
-# A/B Testing
-statsmodels
-scipy
-pymc3
-
-# AutoML
-auto-sklearn
-h2o
-pycaret
-
-# Distributed Computing
-ray
-dask
-spark
+# Optional production add-ons:
+#   pip install -r requirements-optional.txt
